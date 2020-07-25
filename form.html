@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/40c4f74516.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/try.css">
+
+  <title>D0nat3</title>
+</head>
+
+<body>
+  <div class="form-style-3">
+<form  name="myForm"  onsubmit="return validateForm()" method="post">
+<fieldset><legend>Please fill-up the form</legend>
+<label for="field1"><span>Name <span class="required">*</span></span><input type="text" required class="input-field" name="field1" value="" /></label>
+<br>
+<label for="field2"><span>Email <span class="required">*</span></span><input type="email" required class="input-field" name="field2" value="" /></label>
+<br>
+<label for="field3"><span>Phone <span class="required">*</span></span><input type="text" required class="input-field" name="field3" value="" /></label>
+<br>
+<label for="field4"><span>Subject</span><select name="field4" required class="select-field">
+<option value="Appointment">Education</option>
+<option value="Interview">Women</option>
+<option value="Regarding a post">Old-age Home</option>
+</select></label>
+</fieldset>
+<fieldset><legend>Message</legend>
+<label for="field6"><span>Message <span class="required">*</span></span><textarea  name="field6" class="textarea-field"></textarea></label>
+<br>
+<label><span> </span><input type="submit" value="Submit" /></label>
+
+</fieldset>
+</form>
+</div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
